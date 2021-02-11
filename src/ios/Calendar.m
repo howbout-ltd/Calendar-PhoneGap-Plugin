@@ -548,6 +548,8 @@
   NSString* recurrence = [calOptions objectForKey:@"recurrence"];
   NSString* recurrenceEndTime = [calOptions objectForKey:@"recurrenceEndTime"];
   NSNumber* recurrenceIntervalAmount = [calOptions objectForKey:@"recurrenceInterval"];
+  NSNumber* recurrenceByDay = [calOptions objectForKey:@"recurrenceByDay"];
+  NSNumber* recurrenceByMonthDay = [calOptions objectForKey:@"recurrenceByMonthDay"];
   NSString* calendarName = [calOptions objectForKey:@"calendarName"];
   NSString* url = [calOptions objectForKey:@"url"];
 
